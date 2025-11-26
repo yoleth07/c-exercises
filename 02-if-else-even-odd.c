@@ -20,6 +20,12 @@ int main(void) {
     scanf("%d", &number);
 
     // Add your if/else statements here to print the correct message.
-
+    if (number == 0){
+        printf("Zero is even.\n");
+    } else if (number % 2 == 0){
+        printf("%d is even.\n", number);
+    } else {
+        printf("%d is odd.\n", number);
+    }
     return 0;
 }
