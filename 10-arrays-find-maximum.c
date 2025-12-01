@@ -22,6 +22,10 @@ int main(void) {
     int values[SIZE];
 
     // TODO: fill the array with user input using a for loop.
+    for(int i = 0; i < SIZE; i++){
+        printf("Enter number %d: ", i);
+        scanf("%d", &values[i]);
+    }
 
     // TODO: find the largest number and its index using another loop.
 
